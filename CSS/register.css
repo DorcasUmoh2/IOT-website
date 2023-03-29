@@ -9,27 +9,48 @@
                      input[type=text],
                      input[type=password] {
                          width: 100%;
-                         padding: 15px;
+                         padding: 16px;
                          margin: 5px 0 22px 0;
                          display: inline-block;
                          border: none;
-                         background: #f1f1f1;
+                         background: #d5dbd3;
                      }
                      
                      input[type=text]:focus,
                      input[type=password]:focus {
-                         background-color: #ddd;
+                         background-color: #0074f8;
                          outline: none;
                      }
                      
+                     .col-25 {
+                         float: left;
+                         width: 25%;
+                         margin-top: 6px;
+                     }
+                     
+                     .col-75 {
+                         float: left;
+                         width: 75%;
+                         margin-top: 6px;
+                     }
+                     
                      hr {
-                         border: 1px solid #f1f1f1;
+                         border: 1px solid #000e5f;
                          margin-bottom: 25px;
+                     }
+                     
+                     input[type=submit] {
+                         background-color: #45a049;
+                         width: 100%;
+                         padding: 16px;
+                         margin: 5px 0 22px 0;
+                         display: inline-block;
+                         border: none;
                      }
                      /* Set a style for all buttons */
                      
                      button {
-                         background-color: #04AA6D;
+                         background-color: #e9eeec;
                          color: white;
                          padding: 14px 20px;
                          margin: 8px 0;
