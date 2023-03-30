@@ -2,56 +2,51 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="C:\Users\Praise\OneDrive\Documents\IOT-website\IOT-website\CSS\register.css">
-    <!-- <style>
-        body {
-            background-image: url("register.png");
-            background-size: cover;
-            backgroud-attachment: fixed;
-            background-repeat: no repeat;
-        }
-    </style> -->
-
+    <title>Register Form</title>
+    <link rel="stylesheet" href="C:\Users\Praise\OneDrive\Documents\IOT-website\IOT-website\css\register.css">
 </head>
 
 <body>
+    <!-- Your register form goes here -->
+
     <form>
-        <div class="container">
-            <h1>Register</h1>
-            <p>Please fill in this form to create an account with us'_'</p>
-            <hr>
+        <!-- Your register form fields go here -->
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account with us'_'</p>
+        <hr>
+        <label for="Username">Username</label>
+        <input type="text" placeholder="Enter Username" id="Username" name="Username" required>
 
-            <label for="Username"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="username" id="username" required>
+        <label for="Email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="Email" id="Email" required>
 
-            <label for="Email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="Email" id="Email" required>
+        <label for="City"><b>City</b></label>
+        <input type="text" placeholder="Enter City" name="City" id="City" required>
 
-            <label for="City"><b>City</b></label>
-            <input type="text" placeholder="Enter City" name="City" id="City" required>
+        <label for="Country"><b>Country</b></label>
+        <input type="text" placeholder="Enter Country" name="Country" id="Country" required>
 
+        <label for="PostCode"><b>PostCode</b></label>
+        <input type="text" placeholder="Enter PostCode" name="PostCode" id="PostCode" required>
 
-            <label for="Country"><b>Country</b></label>
-            <input type="text" placeholder="Enter Country" name="Country" id="Country" required>
+        <label for="Password"><b>Password</b></label>
+        <input type="text" placeholder="Enter Password" name="Password" id="Password" required>
 
-            <label for="PostCode"><b>PostCode</b></label>
-            <input type="text" placeholder="Enter PostCode" name="PostCode" id="PostCode" required>
+        <label for="Re-enter Password"><b>Re-enter Password</b></label>
+        <input type="text" placeholder="Re-enter Password" name="Re-enter Password" id="Re-enter Password" required>
 
-            <label for="Password"><b>Password</b></label>
-            <input type="text" placeholder="Enter Password" name="Password" id="Password" required>
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+          <option value="Scotland">Scotland</option>
+          <option value="England">England</option>
+          <option value="Wales">Wales</option>
+          <option value="Northern ireland">Northern Ireland</option>
 
-            <label for="Re-enter Password"><b>Re-enter Password</b></label>
-            <input type="text" placeholder="Re-enter Password" name="Re-enter Password" id="Re-enter Password" required>
-
-
-
-            <input type="submit" value="Submit">
-
-
-            </hr>
+        </select>
 
 
-        </div>
+        <input type="submit" value="Submit">
+
     </form>
 </body>
 
