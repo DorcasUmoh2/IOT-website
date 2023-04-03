@@ -48,7 +48,7 @@
                              border: none;
                          }
                          /* Set a style for all buttons */
-                         /*                          
+                         
                          button {
                              background-color: #e9eeec;
                              color: white;
@@ -95,4 +95,53 @@
                              .signupbtn {
                                  width: 100%;
                              }
+                         }
+                         /* design for log in page */
+                         
+                         .loginContainer {
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                             height: 100vh;
+                         }
+                         
+                         form {
+                             width: 400px;
+                             padding: 20px;
+                             background: #f8f8f8;
+                             box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+                         }
+                         
+                         .login_fields {
+                             margin-bottom: 25px;
+                         }
+                         
+                         label {
+                             display: block;
+                             font-size: 18px;
+                             font-weight: 600;
+                             margin-bottom: 5px;
+                         }
+                         
+                         p {
+                             display: inline-block;
+                             font-size: 16px;
+                             margin-bottom: 0;
+                         }
+                         
+                         button[type="submit"] {
+                             display: block;
+                             width: 100%;
+                             padding: 10px;
+                             background: #008CBA;
+                             color: #fff;
+                             border: none;
+                             border-radius: 4px;
+                             font-size: 18px;
+                             cursor: pointer;
+                             transition: all 0.3s ease;
+                         }
+                         
+                         button[type="submit"]:hover {
+                             background: #005f79;
                          }
